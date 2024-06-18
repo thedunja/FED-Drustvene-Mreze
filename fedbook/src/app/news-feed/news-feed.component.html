@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col">
+    <app-post *ngFor="let post of postList" [post]="post"></app-post>
+  </div>
+
+</div>
+<div class="row">
+  <div class="col d-flex justify-content-center my-3">
+    <button *ngIf="params.pageSize <= postList.length" class="btn btn-outline-primary" (click)="loadPosts()">Load
+      More</button>
+  </div>
+</div>

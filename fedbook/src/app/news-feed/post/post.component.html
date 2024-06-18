@@ -1,0 +1,57 @@
+<div class="row my-5">
+    <div class="col-8">
+        <div class="row">
+            <div class="col-3">
+                <p>{{post.user.name}}</p>
+                <p>{{post.date | date: "hh:mm d, MMMM"}}</p>
+                <img [src]="['assets/images/' + post.user.picture]" alt="user-image" class="w-100">
+            </div>
+            <div class="col-9">
+                <p>{{post.text}}</p>
+                <button class="btn btn-warning" (click)="open(content)">New Comment</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+            <ngb-panel *ngFor="let comment of commentList; let i = index">
+                <ng-template ngbPanelTitle>
+                    <span>#{{i+1}} | {{comment.user.name}} | {{comment.date | date:"hh:mm d, MMMM"}} | <ngb-rating
+                            [(rate)]="comment.rating" [max]="5"></ngb-rating></span>
+                </ng-template>
+                <ng-template ngbPanelContent>
+                    <div class="row">
+                        <div class="col-3">
+                            <img [src]="['assets/images/' + comment.user.picture]" alt="user-img" class="w-100">
+                        </div>
+                        <div class="col-9">{{comment.text}}</div>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+        </ngb-accordion>
+    </div>
+</div>
+<hr>
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+        <form [formGroup]="commentForm">
+            <div class="mb-3">
+                <textarea name="text" id="text" cols="50" rows="5" formControlName="text"
+                    placeholder="Enter Comment"></textarea>
+                <span class="errorMessage"
+                    *ngIf="!commentForm.controls['text'].valid && commentForm.controls['text'].touched">Please enter
+                    valid
+                    username</span>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button [disabled]="commentForm.invalid" type="button" class="btn btn-outline-dark"
+            (click)="modal.close('Save click')">Save</button>
+    </div>
+</ng-template>

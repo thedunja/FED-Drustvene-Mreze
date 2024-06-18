@@ -1,0 +1,48 @@
+[{
+	"_id" : 1,
+	"text": "For all you \"just getting started\" developers, here's a decent \"review/cheatsheet\" post for helping you to ace that JavaScript interview! https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e?lipi=urn%3Ali%3 Apage%3Ad_flagship3_search_srp_content%3BsxHLfsf0Sg2WZP%2Fx78FJpQ%3D%3D",
+	"user": {"name": "Mina Petrovic", "picture": "lioness.jpg"},
+	"date": "2017-01-04T16:30:39.116Z"
+},
+{
+	"_id" : 2,
+	"text": "Learning to code isn’t just about preparing for careers in tech, it helps students learn critical thinking and problem solving skills that are important for the jobs of the future in every industry. This week as we celebrate Computer Science Education Week, millions of students around the world are participating in a Minecraft Hour of Code tutorial – making learning to code fun and engaging, as well as equipping them with building blocks for the future. https://educationblog.microsoft.com/2017/12/how-to-join-computer-science-education-week-2017/",
+	"user": {"name": "Petar Boskovic", "picture": "rick.jpg"},
+	"date": "2017-11-04T13:50:39.116Z"
+},
+{
+	"_id" : 3,
+	"text": "In celebration of #CSEdWeek, learn how we are inspiring students and educators to get excited about taking that first step in learning to code, and check out our first-ever coding #GoogleDoodle: https://goo.gl/mii7oU",
+	"user": {"name": "Petar Boskovic", "picture": "rick.jpg"},
+	"date": "2017-12-05T11:30:39.116Z"
+},
+{
+	"_id" : 4,
+	"text": "Articles about computer science, Angular, JavaScript, and compilers. Source: Faster Angular Applications - Part 1. On Push and Immutable.js · Minko Gechev's blog http://angular.org.il/…/faster-angular-applications-part-1…/",
+	"user": {"name": "Jasmina Ralevic", "picture": "baby_groot.jpg"},
+	"date": "2017-12-10T23:38:39.116Z"
+},
+{
+	"_id" : 5,
+	"text": "https://alligator.io/angular/flex-layout/",
+	"user": {"name": "Mica Macic", "picture": "kitty.jpg"},
+	"date": "2017-10-12T12:19:39.116Z"
+},
+{
+	"_id" : 6,
+	"text": "We made a little video to give you an overview of the new features. If you want to dive deeper into what has changed, keep on reading after watching it ;). Angular 5 is out! Which new features are included? Source: What’s new in Angular 5? | Ninja Squad http://angular.org.il/2017/11/02/whats-new-in-angular-5-ninja-squad/",
+	"user": {"name": "Mica Macic", "picture": "kitty.jpg"},
+	"date": "2017-10-02T12:19:39.116Z"
+},
+{
+	"_id" : 7,
+	"text": "Get Our New #Typescript Jumpstart Ebook https://angular-university.io/ebook/EBOOK_TYPESCRIPT… If you have been trying to learn or use #Typescript and would now like to go deeper into the language and learn how to make the most of its powerful type system, then this book is for you. Waiting for your feedbacks :) :) :) And don't forget to refer us to your friends...",
+	"user": {"name": "Petar Boskovic", "picture": "rick.jpg"},
+	"date": "2017-06-19T10:39:39.116Z"
+},
+{
+	"_id" : 8,
+	"text": "A well-presented guide covering most of JavaScript in detail. A handy refresher. http://javascript.info/?utm_content=buffera50a7&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+	"user": {"name": "Petar Boskovic", "picture": "rick.jpg"},
+	"date": "2017-11-09T11:29:39.116Z"
+}]
